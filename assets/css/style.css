@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #3b4ef8;
+  color: #49c437;
   text-decoration: none;
 }
 
 a:hover {
-  color: #6c7afa;
+  color: #007516;
   text-decoration: none;
 }
 
@@ -119,8 +119,8 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #f6f7ff;
-  border-bottom: 2px solid #eceefe;
+  background: #ededed;
+  border-bottom: 2px solid #ededed;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -186,22 +186,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #3b4ef8;
+  color: #49c437;
 }
 
 .navbar .getstarted {
-  background: #e2e5fe;
+  background: #ededed;
   padding: 9px 25px;
   margin-left: 30px;
   border-radius: 5px;
   font-weight: 600;
   color: #fff;
-  color: #3b4ef8;
+  color: #49c437;
 }
 
 .navbar .getstarted:hover {
   color: #fff;
-  background: #3b4ef8;
+  background: #49c437;
 }
 
 .navbar .dropdown ul {
@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #ededed;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
   border-radius: 4px;
@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #3b4ef8;
+  color: #49c437;
 }
 
 .navbar .dropdown:hover > ul {
@@ -326,11 +326,12 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2d405f;
+  color: #49c437;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #3b4ef8;
+  /*color: #3b4ef8;*/
+  color: #49c437;
 }
 
 .navbar-mobile .getstarted {
@@ -345,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: #ededed;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
@@ -362,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #3b4ef8;
+  color: #49c437;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -416,7 +417,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #0a22f6;
+  background: #49c437;
 }
 
 #hero .hero-img {
@@ -468,7 +469,8 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #2d405f;
+  /*color: #2d405f;*/
+  color: #007516;
 }
 
 .section-title h2::after {
@@ -477,7 +479,8 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #aabbd7;
+  /*background: #aabbd7;*/
+  background: #49c436;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -668,16 +671,19 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services {
-  background: #2d405f;
+  /*background: #007516;*/
+  background: #ededed;
   padding-bottom: 80px;
 }
 
 .services .section-title h2, .services .section-title p {
-  color: #fff;
+  /*color: #fff;*/
+  color: #007516;
 }
 
 .services .section-title h2::after {
-  background: rgba(255, 255, 255, 0.2);
+  /*background: rgba(255, 255, 255, 0.2);*/
+  background: #49c437;
 }
 
 .services .icon-box {
@@ -715,12 +721,13 @@ section {
 }
 
 .services .title a {
-  color: #2d405f;
+  /*color: #2d405f;*/
+  color: #49c437;
   transition: 0.3s;
 }
 
 .services .title a:hover {
-  color: #4e6fa4;
+  color: #49c437;
 }
 
 .services .description {
@@ -828,7 +835,8 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
+  /*color: #fff;*/
+  color: #49c437;
   margin: 0 5px 0 0;
   font-size: 28px;
   display: inline-block;
