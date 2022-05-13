@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #007516;
+  background: #BBCE00;
   border-bottom: 3px solid #49c437;
   transition: all 0.5s;
   z-index: 997;
@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #ededed;
+  color: #003E74;
 }
 
 #header .logo img {
@@ -174,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Krub", sans-serif;
   font-size: 14px;
   font-weight: 600;
-  color: #ededed;
+  color: #003E74;
   white-space: nowrap;
   transition: 0.3s;
 }
