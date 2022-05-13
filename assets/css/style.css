@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #49c437;
+  background: #02893B;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #header {
   background: #02893B;
-  border-bottom: 3px solid #49c437;
+  border-bottom: 3px solid #02893B;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #49c437;
+  color: #02893B;
 }
 
 .navbar .getstarted {
@@ -196,12 +196,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 5px;
   font-weight: 600;
   color: #fff;
-  color: #49c437;
+  color: #02893B;
 }
 
 .navbar .getstarted:hover {
   color: #fff;
-  background: #49c437;
+  background: #02893B;
 }
 
 .navbar .dropdown ul {
@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #49c437;
+  color: #02893B;
 }
 
 .navbar .dropdown:hover > ul {
@@ -331,7 +331,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
   /*color: #3b4ef8;*/
-  color: #49c437;
+  color: #02893B;
 }
 
 .navbar-mobile .getstarted {
@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #49c437;
+  color: #02893B;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -417,7 +417,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #49c437;
+  background: #02893B;
 }
 
 #hero .hero-img {
@@ -480,7 +480,7 @@ section {
   width: 50px;
   height: 3px;
   /*background: #aabbd7;*/
-  background: #49c436;
+  background: #02893B;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -674,8 +674,8 @@ section {
   /*background: #02893B;*/
   background: #ededed;
   padding-bottom: 80px;
-  border-top: 3px solid #49c437;
-  border-bottom: 3px solid #49c437;
+  border-top: 3px solid #02893B;
+  border-bottom: 3px solid #02893B;
 }
 
 .services .section-title h2, .services .section-title p {
@@ -685,7 +685,7 @@ section {
 
 .services .section-title h2::after {
   /*background: rgba(255, 255, 255, 0.2);*/
-  background: #49c437;
+  background: #02893B;
 }
 
 .services .icon-box {
@@ -724,12 +724,12 @@ section {
 
 .services .title a {
   /*color: #2d405f;*/
-  color: #49c437;
+  color: #02893B;
   transition: 0.3s;
 }
 
 .services .title a:hover {
-  color: #49c437;
+  color: #02893B;
 }
 
 .services .description {
@@ -838,7 +838,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a {
   /*color: #fff;*/
-  color: #49c437;
+  color: #02893B;
   margin: 0 5px 0 0;
   font-size: 28px;
   display: inline-block;
