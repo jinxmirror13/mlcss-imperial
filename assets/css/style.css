@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:hover {
-  background: #007516;
+  background: #BBCE00;
   color: #fff;
 }
 
@@ -326,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #007516;
+  color: #BBCE00;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
@@ -470,7 +470,7 @@ section {
   padding-bottom: 20px;
   position: relative;
   /*color: #2d405f;*/
-  color: #007516;
+  color: #BBCE00;
 }
 
 .section-title h2::after {
@@ -671,7 +671,7 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services {
-  /*background: #007516;*/
+  /*background: #BBCE00;*/
   background: #ededed;
   padding-bottom: 80px;
   border-top: 3px solid #49c437;
@@ -680,7 +680,7 @@ section {
 
 .services .section-title h2, .services .section-title p {
   /*color: #fff;*/
-  color: #007516;
+  color: #BBCE00;
 }
 
 .services .section-title h2::after {
