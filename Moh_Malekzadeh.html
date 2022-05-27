@@ -11,7 +11,7 @@
      margin-right: auto;
       }
   </style>
-  <title>ML-CSS@ICL - Giulio Zizzo</title>
+  <title>ML-CSS@ICL - Moh Malekzadeh</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -68,13 +68,13 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="align-items-center">
     <div class="container d-flex flex-column align-items-center justify-content-center"  style="padding-bottom: 2%">
-      <a href="https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Giulio.Zizzo2"><img src="assets/img/giulio.jpeg" class="img-fluid" alt="Dr Giulio Zizzo" width=200></a>
+      <a href="webpage here"><img src="assets/img/smile.png" class="img-fluid" alt="Moh Malekzadeh" width=200></a>
       <br/> <br/>
-      <a href="https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Giulio.Zizzo2"><h3>Dr Giulio Zizzo</h3></a>
+      <a href="webpage here"><h3>Moh Malekzadeh</h3></a>
       <p class="fst-italic">
-         Research Staff Member at IBM Research
+         PostDoc in Electrical and Electronic Engineering
       </p>
-      <p>Giulio is a Research Staff Member at IBM Research. He is part of the Security and Privacy team researching secure and robust machine learning. Giulio obtained his PhD from Imperial College London focusing on adversarial machine learning. During his PhD he worked with FeedForward AI, a startup developing AI solutions for the music industry. Prior, he worked at BAE Systems and interned at Kamioka Observatory, a Nobel prize winning institution.
+      <p>[Moh's amazing life story goes HERE]
       </p>
       <br/><br/>
       <p><i>Scroll down for more details...</i></p>
@@ -87,10 +87,11 @@
     <section id="talks" class="services">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <br/>
-
-          <h2>Certified Federated Adversarial Training</h2>
-          <p> Keynote Talk </p>
+          <br/><br/>
+          <h2>Honest-but-Curious Nets: Sensitive Attributes of Private Inputs Can Be Secretly Coded into the Classifiers' Outputs</h2>
+          <p>Lightning Talk</p>
+           <br/>
+           <i>Data Privacy in Machine Learning</i>
         </div>
       </div>
     </section><!-- End Services Section -->
@@ -98,15 +99,8 @@
     <section id="prof" class="features" data-aos="fade-up">
       <div class="container">
         <div class="section-title">
-          <p>Federated Learning (FL) is a recent paradigm to train neural networks in a decentralised manner without users needing to share their data. Instead, users only share a locally trained model with a central server to update a globally shared model. This offers privacy advantages for the users as their data remains local, and significant compute savings for the central server as it does not need to perform the model training itself.
-          <br/><br/>
-          I will begin with an overview of the current security challenges in FL. Despite tantalising us with the vision of private and decentralised training, in practice there are several problems. FL is not as private as we had first hoped. Recent works have shown in certain cases a user's data can be exactly reconstructed. Even abandoning the idea of privacy, and just retaining the compute advantages, FL leaves us with a system that is highly exposed to attacks. In fact, the classical FL setup is completely vulnerable to just a single malicious user.
-          <br/><br/>
-          To meet these challenges, there has been research on construing robust FL training algorithms to block the influence of potentially many malicious users collaborating to subvert a ML model. However, these robust algorithms fundamentally require the number of malicious users to be constrained in relation to the number of benign users. All bets are off if this is not the case, and in that situation the attackers can arbitrarily control the resulting model. Benign user numbers can vary as they can join a FL training round at will, or participate based on factors such as idle system status, or power and WiFi connectivity. On the other hand, attackers can concentrate their numbers and efforts at key points to gain control of the model.
-          <br/><br/>
-          I will then present some of my recent research aiming for security guarantees in this scenario. To be able to defend in such a hostile environment, we narrow our focus on achieving secure adversarial training in a federated fashion. We turn to methods of certifying neural networks arising out of abstract interpretation to give us the tools needed to analyse a user's model updates in a principled manner. With this, we can detect stealthy attacks and block corrupted model updates. This defence can preserve adversarial robustness even against arbitrary numbers of adaptive attackers with perfect knowledge.
-          <br/><br/>
-          Finally, to give a broader outlook on FL and machine learning security I will conclude with a high level overview of the wider research undertaken by the ML Security and Privacy team at IBM Research. This includes stealthily embedding entire datasets in GANs, homomorphic encryption in FL, machine unlearning, and the development of several open source toolkits.
+          <p>
+            It is known that deep neural networks, trained for the classification of non-sensitive target attributes, can reveal sensitive attributes of their input data through internal representations extracted by the classifier. We take a step forward and show that deep classifiers can be trained to secretly encode a sensitive attribute of their input data into the classifier's outputs for the target attribute, at inference time. Our proposed attack works even if users have a full white-box view of the classifier, can keep all internal representations hidden, and only release the classifier's estimations for the target attribute. We introduce an information-theoretical formulation for such attacks and present efficient empirical implementations for training honest-but-curious (HBC) classifiers: classifiers that can be accurate in predicting their target attribute, but can also exploit their outputs to secretly encode a sensitive attribute. Our work highlights a vulnerability that can be exploited by malicious machine learning service providers to attack their user's privacy in several seemingly safe scenarios; such as encrypted inferences, computations at the edge, or private knowledge distillation. Experimental results on several attributes in two face-image datasets show that a semi-trusted server can train classifiers that are not only perfectly honest but also accurately curious. We conclude by showing the difficulties in distinguishing between standard and HBC classifiers, discussing challenges in defending against this vulnerability of deep classifiers, and enumerating related open directions for future studies.
           </p>
 
         </div>

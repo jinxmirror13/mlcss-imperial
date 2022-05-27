@@ -11,7 +11,7 @@
      margin-right: auto;
       }
   </style>
-  <title>ML-CSS@ICL - Giulio Zizzo</title>
+  <title>ML-CSS@ICL - Tony Ng</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -68,13 +68,14 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="align-items-center">
     <div class="container d-flex flex-column align-items-center justify-content-center"  style="padding-bottom: 2%">
-      <a href="https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Giulio.Zizzo2"><img src="assets/img/giulio.jpeg" class="img-fluid" alt="Dr Giulio Zizzo" width=200></a>
+      <a href="webpage here"><img src="assets/img/smile.png" class="img-fluid" alt="Tony Ng" width=200></a>
+
       <br/> <br/>
-      <a href="https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Giulio.Zizzo2"><h3>Dr Giulio Zizzo</h3></a>
+      <a href="webpage here"><h3>Tony Ng</h3></a>
       <p class="fst-italic">
-         Research Staff Member at IBM Research
+         Ph.D. Student in Electrical and Electronic Engineering
       </p>
-      <p>Giulio is a Research Staff Member at IBM Research. He is part of the Security and Privacy team researching secure and robust machine learning. Giulio obtained his PhD from Imperial College London focusing on adversarial machine learning. During his PhD he worked with FeedForward AI, a startup developing AI solutions for the music industry. Prior, he worked at BAE Systems and interned at Kamioka Observatory, a Nobel prize winning institution.
+      <p>[Tony's amazing life story goes HERE]
       </p>
       <br/><br/>
       <p><i>Scroll down for more details...</i></p>
@@ -87,10 +88,11 @@
     <section id="talks" class="services">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <br/>
-
-          <h2>Certified Federated Adversarial Training</h2>
-          <p> Keynote Talk </p>
+          <br/><br/>
+          <h2>NinjaDesc: Content-Concealing Visual Descriptors via Adversarial Learning</h2>
+          <p>Lightning Talk</p>
+           <br/>
+           <i>computer vision; privacy-preserving; adversarial learning</i>
         </div>
       </div>
     </section><!-- End Services Section -->
@@ -98,15 +100,8 @@
     <section id="prof" class="features" data-aos="fade-up">
       <div class="container">
         <div class="section-title">
-          <p>Federated Learning (FL) is a recent paradigm to train neural networks in a decentralised manner without users needing to share their data. Instead, users only share a locally trained model with a central server to update a globally shared model. This offers privacy advantages for the users as their data remains local, and significant compute savings for the central server as it does not need to perform the model training itself.
-          <br/><br/>
-          I will begin with an overview of the current security challenges in FL. Despite tantalising us with the vision of private and decentralised training, in practice there are several problems. FL is not as private as we had first hoped. Recent works have shown in certain cases a user's data can be exactly reconstructed. Even abandoning the idea of privacy, and just retaining the compute advantages, FL leaves us with a system that is highly exposed to attacks. In fact, the classical FL setup is completely vulnerable to just a single malicious user.
-          <br/><br/>
-          To meet these challenges, there has been research on construing robust FL training algorithms to block the influence of potentially many malicious users collaborating to subvert a ML model. However, these robust algorithms fundamentally require the number of malicious users to be constrained in relation to the number of benign users. All bets are off if this is not the case, and in that situation the attackers can arbitrarily control the resulting model. Benign user numbers can vary as they can join a FL training round at will, or participate based on factors such as idle system status, or power and WiFi connectivity. On the other hand, attackers can concentrate their numbers and efforts at key points to gain control of the model.
-          <br/><br/>
-          I will then present some of my recent research aiming for security guarantees in this scenario. To be able to defend in such a hostile environment, we narrow our focus on achieving secure adversarial training in a federated fashion. We turn to methods of certifying neural networks arising out of abstract interpretation to give us the tools needed to analyse a user's model updates in a principled manner. With this, we can detect stealthy attacks and block corrupted model updates. This defence can preserve adversarial robustness even against arbitrary numbers of adaptive attackers with perfect knowledge.
-          <br/><br/>
-          Finally, to give a broader outlook on FL and machine learning security I will conclude with a high level overview of the wider research undertaken by the ML Security and Privacy team at IBM Research. This includes stealthily embedding entire datasets in GANs, homomorphic encryption in FL, machine unlearning, and the development of several open source toolkits.
+          <p>
+            In the light of recent analyses on privacy-concerning scene revelation from visual descriptors, we develop descriptors that conceal the input image content. In particular, we propose an adversarial learning framework for training visual descriptors that prevent image reconstruction, while maintaining the matching accuracy. We let a feature encoding network and image reconstruction network compete with each other, such that the feature encoder tries to impede the image reconstruction with its generated descriptors, while the reconstructor tries to recover the input image from the descriptors. The experimental results demonstrate that the visual descriptors obtained with our method significantly deteriorate the image reconstruction quality with minimal impact on correspondence matching and camera localization performance.
           </p>
 
         </div>
