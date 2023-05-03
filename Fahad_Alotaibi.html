@@ -74,7 +74,7 @@
       <p class="fst-italic">
          Ph.D. Student in Computing
       </p>
-      <p>[Fahad's amazing life story goes HERE]
+      <p>Fahad is a second-year PhD student at the department of computing. He is under the supervision of Dr Sergio Maffies and Professor Christopher Hankin. He did his master in cyber security at the University of York in 2019-20, and his bachelor in computer science at Shaqra University 2013-17. His research is about improving the robustness of NIDS-based learning based applications against concept drift.
       </p>
       <br/><br/>
       <p><i>Scroll down for more details...</i></p>
@@ -100,7 +100,10 @@
       <div class="container">
         <div class="section-title">
           <p>
-            Machine Learning (ML) algorithms such as Neural Networks have a great potential as substitutes for traditional signature-based approaches in various security applications. However, their use has been limited due to multiple challenges. One core challenge is concept drift, which can be divided into two sub-challenges, namely semantic shift (a.k.a real concept drift) and covariate shift (a.k.a virtual concept drift). The semantic shift represents the algorithm’s inability to identify totally new knowledge, more precisely, the model will predict a new unknown class as a known class. The covariate shift represents the algorithm’s inability to correctly classify evolving data, and consequently, the algorithm will predict the evolving data incorrectly as a different class. Both challenges have been investigated recently in the ML-based security applications literature, however, most proposed solutions do not consider network intrusion detection systems (NIDS). This short talk will start by outlining the current methods that are applied to detect semantic shifts in DNN-based NIDS, then it will highlight the current limitations and challenges.
+            Network Intrusion Detection Systems (NIDS) that utilize Deep Neural Networks (DNN) have shown exceptional results in closed-world settings, with accuracy levels surpassing 98%. Nevertheless, in open-world scenarios, these systems encounter challenges, especially in detecting and dismissing unfamiliar categories, referred to as semantic shift. Presently, researchers are exploring the use of the model's confidence score to discard uncertain predictions thought to be instances of semantic shift. However, supervised DNN models tend to exhibit overconfidence when faced with out-of-distribution data, leading to questions about the dependability of their confidence scores.
+            <br>
+            In this talk, I will illustrate that the confidence scores of supervised DNN-based NIDSs cannot be reliably used to identify semantic shift cases. Furthermore, I will delve into the potential of fitness functions, such as supervised contrastive learning, for detecting semantically shifted network flows. Subsequently, I will present our novel framework that employs a distance function to efficiently detect and adapt to drifts in data.
+
           </p>
 
         </div>
